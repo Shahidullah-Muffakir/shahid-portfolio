@@ -30,6 +30,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mern1}
+              isBlog={false}
+              title="MERN Admin Dashboard"
+              description="Full Stack web app, built with MERN Stack. used Material UI in the frontend with ReactJS."
+              ghLink="https://github.com/Shahidullah-Muffakir/MERN-Admin-dashboard"
+              demoLink="https://mern-admin-frontend-xrui.onrender.com/"       
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={jobapp1}
@@ -105,16 +115,7 @@ function Projects() {
               demoLink="https://shahidullah-netflix-clone.netlify.app/"       
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mern1}
-              isBlog={false}
-              title="MERN Admin Dashboard"
-              description="Full Stack web app, built with MERN Stack. used Material UI in the frontend with ReactJS."
-              ghLink="https://github.com/Shahidullah-Muffakir/MERN-Admin-dashboard"
-              demoLink="https://mern-admin-frontend-xrui.onrender.com/"       
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
