@@ -16,6 +16,7 @@ import clothing1 from "../../Assets/Projects/clothing1.PNG";
 import gmailclone1 from "../../Assets/Projects/gmailclone1.PNG";
 import teslaclone1 from "../../Assets/Projects/teslaclone1.PNG";
 import netflixclone1 from "../../Assets/Projects/netflixclone1.PNG";
+import mern1 from "../../Assets/Projects/mern-ad1.PNG";
 
 function Projects() {
   return (
@@ -102,6 +103,16 @@ function Projects() {
               description="I built the Netflix Clone, Using ReactJS, Firebase, Sass, Fetching movie details from TMDB api with the help of axios"
               ghLink="https://github.com/Shahidullah-Muffakir/Netflix-Clone"
               demoLink="https://shahidullah-netflix-clone.netlify.app/"       
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mern1}
+              isBlog={false}
+              title="MERN Admin Dashboard"
+              description="Full Stack web app, built with MERN Stack. used Material UI in the frontend with ReactJS."
+              ghLink="https://github.com/Shahidullah-Muffakir/MERN-Admin-dashboard"
+              demoLink="https://mern-admin-frontend-xrui.onrender.com/dashboard"       
             />
           </Col>
         </Row>
