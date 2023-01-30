@@ -112,7 +112,7 @@ function Projects() {
               title="MERN Admin Dashboard"
               description="Full Stack web app, built with MERN Stack. used Material UI in the frontend with ReactJS."
               ghLink="https://github.com/Shahidullah-Muffakir/MERN-Admin-dashboard"
-              demoLink="https://mern-admin-frontend-xrui.onrender.com/dashboard"       
+              demoLink="https://mern-admin-frontend-xrui.onrender.com/"       
             />
           </Col>
         </Row>
