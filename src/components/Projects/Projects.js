@@ -17,6 +17,7 @@ import gmailclone1 from "../../Assets/Projects/gmailclone1.PNG";
 import teslaclone1 from "../../Assets/Projects/teslaclone1.PNG";
 import netflixclone1 from "../../Assets/Projects/netflixclone1.PNG";
 import mern1 from "../../Assets/Projects/mern-ad1.PNG";
+import gym from "../../Assets/Projects/gym.png";
 
 function Projects() {
   return (
@@ -30,14 +31,14 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mern1}
               isBlog={false}
               title="MERN Admin Dashboard"
               description="Full Stack web app, built with MERN Stack. used Material UI in the frontend with ReactJS."
               ghLink="https://github.com/Shahidullah-Muffakir/MERN-Admin-dashboard"
-              demoLink="https://mern-admin-frontend-xrui.onrender.com/"       
+              demoLink="https://mern-admin-frontend-xrui.onrender.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -69,7 +70,7 @@ function Projects() {
               title="ECommerce"
               description="An ECommerce Web application, built with the help of ReactJS, having payment with stripe functionality"
               ghLink="https://github.com/Shahidullah-Muffakir/shahid_ecommerce"
-              demoLink="https://shahid-ecommerce.vercel.app/"              
+              demoLink="https://shahid-ecommerce.vercel.app/"
             />
           </Col>
 
@@ -102,7 +103,7 @@ function Projects() {
               title="Tesla Clone"
               description="I built this Tesla clone using ReactJS, Redux and Styled-components"
               ghLink="https://github.com/Shahidullah-Muffakir/tesla-clone"
-              demoLink="https://tesla-clone-shahid.netlify.app/"       
+              demoLink="https://tesla-clone-shahid.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -112,10 +113,20 @@ function Projects() {
               title="Netflix Clone"
               description="I built the Netflix Clone, Using ReactJS, Firebase, Sass, Fetching movie details from TMDB api with the help of axios"
               ghLink="https://github.com/Shahidullah-Muffakir/Netflix-Clone"
-              demoLink="https://shahidullah-netflix-clone.netlify.app/"       
+              demoLink="https://shahidullah-netflix-clone.netlify.app/"
             />
           </Col>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gym}
+              isBlog={false}
+              title="FitnessFuel Gym App"
+              description="Built with using ReactJS, Typscript, TailwindCSS, and Framer Motion"
+              ghLink="https://github.com/Shahidullah-Muffakir/FitnessFuel-gym-app"
+              demoLink="https://fitness-fuel.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
